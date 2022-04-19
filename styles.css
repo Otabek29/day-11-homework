@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.box-1 {
+    width: 500px;
+    margin: 10% auto;
+}
+
+.input {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.input2 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.input3 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.input4 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.input5 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.input6 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.input7 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.input8 {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    line-height: 32px;
+}
+
+.span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    opacity: 0.5;
+}
+
+.text {
+    font-size: 38px;
+    margin-left: 15px;
+    opacity: 0.5;
+}
+
+.input:checked ~ .span {
+    background: url(./icons/table-tennis.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+
+.input2:checked ~ .span {
+    background: url(./icons/basketball-ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+
+.input3:checked ~ .span {
+    background: url(./icons/volleyball-ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+
+.input4:checked ~ .span {
+    background: url(./icons/hockey-puck.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+}
+
+.input5:checked ~ .span {
+    background: url(./icons/table-tennis.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input6:checked ~ .span {
+    background: url(./icons/basketball-ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input7:checked ~ .span {
+    background: url(./icons/volleyball-ball.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input8:checked ~ .span {
+    background: url(./icons/hockey-puck.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.input:checked ~ .text {
+    opacity: 1;
+}
+
+.input2:checked ~ .text {
+    opacity: 1;
+}
+
+.input3:checked ~ .text {
+    opacity: 1;
+}
+
+.input4:checked ~ .text {
+    opacity: 1;
+}
+
+.k {
+    opacity: 0.5;
+}
